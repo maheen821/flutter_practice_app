@@ -104,6 +104,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
             ),
+            Padding(
+              padding: const EdgeInsets.all(14.0),
+              child: Text("Labels" , style: TextStyle(fontSize: 25 , fontWeight: FontWeight.bold), ),
+            ),
             buildDrawerItem(icon: Icons.inbox, title: 'Inbox', index: 0),
             buildDrawerItem(icon: Icons.snooze, title: 'Snoozed', index: 1),
             Divider(),
