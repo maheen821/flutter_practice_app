@@ -35,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: ListView.separated(
-        padding: const EdgeInsets.only(top: 30, bottom: 30 , left: 10 , right: 10 ),
+        padding: const EdgeInsets.only(top: 10, bottom: 10 , left: 10 , right: 10 ),
         itemBuilder: (context, index) {
           return Text(
             arrFruits[index],
@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
         itemCount: arrFruits.length,
         separatorBuilder: (context, index) {
           return Divider(
-            height: 100,
+            height: 50,
             thickness: 5,
             color: Colors.cyan,
           );
