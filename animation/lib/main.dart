@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
-
 void main() {
   runApp(const MyApp());
 }
-
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -20,7 +17,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
   final String title;
@@ -53,21 +49,17 @@ class _MyHomePageState extends State<MyHomePage>
     animationController.addListener(() {
       setState(() {});
     });
-
     animationController.forward();
   }
-
   @override
   void dispose() {
     animationController.dispose();
     super.dispose();
   }
-
   void restartAnimation() {
     animationController.reset();
     animationController.forward();
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
