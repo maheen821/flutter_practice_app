@@ -11,6 +11,4 @@ A beginner-friendly Flutter project to practice core concepts of Flutter develop
 - Buttons, forms, and input handling
 - Custom styling and theming
 
-## 📸 Screenshots
 
-*Add some screenshots here if available using:*
